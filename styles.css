@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.myHeader{
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
+    color: white;
+}
+
+body{
+    font-family: Helvetica;
+    background-color: rgb(99, 201, 252);
+}
+
+.content{
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: DodgerBlue;
+    padding: 5px;
+    align: center;
+}
+
+.img-container{
+    text-align: center;
+    background-color: rgb(99, 201, 252);
+}
+
+.div-wrapper {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.div-wrapper img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bioButton{
+    background-color: dodgerblue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px;
+    font-size: 16px; /* Set a font size */
+    cursor: pointer;
+}
+
+.bioButton:hover{
+    background-color: blue;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.title{
+    border: 1px;
+}
+
+.bioDiv{
+    text-align: center;
+    background-color: rgb(99, 201, 252);
+    height: 200px;
+}
+
+.quoteSec{
+    text-align: center;
+    padding: 1px;
+    height: 24vh;
+    background-color: rgb(75, 196, 255);
+}
+
+.connectSec{
+    text-align: center;
+    padding: 1px;
+    height: 10vh;
+    background-color: rgb(75, 196, 255);
+}

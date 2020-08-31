@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <title class="title">13518003 Dimas Lucky Mahendra</title>
+
+	<header>
+        <h1 class="myHeader" id="myHeader">13518003 Dimas Lucky Mahendra</h1>
+    </header>
+
+    <div class="content">
+    <div class="img-container">
+        <img src="13518003.jpg" alt="Foto" width="360" height="240" border= 5px solid black>
+    </div>
+
+    <div class="bioDiv">
+        <button id="toggleBio" class="bioButton" type="button" value="showBio" onmouseover="enlargeElement()" onclick="showBio()">
+            Show Biodata
+        </button>
+
+        <table id="biodata" style="display:none" align="center">
+			<tr>
+				<td><b>Nama</b></td>
+				<td>Dimas Lucky Mahendra</td>
+            </tr>
+            
+			<tr>
+				<td><b>Program Studi</b></td>
+				<td>Teknik Informatika Institut Teknologi Bandung</td>
+            </tr>
+            
+			<tr>
+				<td><b>NIM</b></td>
+				<td>13518003</td>
+            </tr>
+            
+			<tr>
+				<td><b>GitHub</b></td>
+				<td><a href="https://github.com/dimaslucky">github</a></td>
+			</tr>
+        </table>
+    </div></div>
+
+    <div class="div-wrapper" style="width: 100%; height: 50px; background-color: rgb(99, 201, 252);">
+        <a href="#connectSection">
+            <img id="dropDown" src="drop-down.png" alt="Go Down" width="150" height="50" style="opacity: 0.25" onmouseover="opacityUp()" onmouseout="opacityDown()">
+        </a>
+    </div>
+
+    <div class="quoteSec" style="height: 16vh;">
+    </div>
+
+    <div class="quoteSec" id="quoteSection">
+        <p>"Jadi ceritanya ini quotes, cuma sebenernya gatau mau nulis apa. Mohon dimaklumin juga kalo pagenya jelek, 
+            bener-bener baru nyoba html soalnya. Mohon doanya juga biar IP semester 5 ini naik kalo bisa sampe diatas
+            3.0 ya kawan-kawan. Bener-bener butuh doa kalian, kalo cuma ngandelin usaha sendiri kayaknya ga bakal cukup, kalian 
+            tau sendiri kan ITB dapet nilainya setengah mati. Sekian dan makasih."
+        </p>
+    </div>
+
+    <div class="connectSec" id="connectSection">
+        <p>
+            <a href="https://instagram.com/dimaslmahendra">
+                <img src="instagram-logo.png" alt="instagram" width="30" height="30">
+            </a>
+            <a href="mailto: 13518003@std.stei.itb.ac.id">
+                <img src="email-logo.png" alt="email" width="28" height="25">
+            </a>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
